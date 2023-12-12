@@ -178,6 +178,30 @@ bool search(node* head, int data) {
     return false;
 }
 
+// Delete Function
+void delete(node** head, int data) {
+    if (*head == NULL) {
+        return; 
+    }
+    node* temp = *head;
+    if (temp->value == data) {
+        *head = (*head)->next;
+        free(temp);
+        return;
+    }
+    while(temp->next != NULL)
+    {
+        if(temp->next->value == data)
+        {
+            node* node_to_delete = temp->next;
+            temp->next = temp->next->next;
+            free(node_to_delete);
+            return;
+        }
+        temp = temp->next;
+    }
+}
+
 // To implement a doubly linked list the following must change
 // The struct must have a previous pointer
 // The create_list function must set the previous pointer to NULL
