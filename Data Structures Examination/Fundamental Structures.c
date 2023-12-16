@@ -86,7 +86,7 @@ void insert_at_tail(node** head, int data) { // This is a double pointer because
         return; 
     }
     node* temp = *head; 
-    while (temp->next != NULL) {
+    while (temp->next != NULL) { 
         temp = temp->next; 
     }
     temp->next = new_node; 
