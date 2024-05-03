@@ -1,0 +1,248 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Isaiah Iruoha} \\ \vspace{1pt}
+    \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{isaiah.iruoha@queensu.ca}} ~ 
+    \href{https://isaiahiruoha.com}{\raisebox{-0.2\height}\faBriefcase\ \underline{isaiahiruoha.com}}  ~
+    \href{https://linkedin.com/in/isaiahiruoha/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/isaiahiruoha}}  ~
+    \href{https://github.com/isaiahiruoha}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/isaiahiruoha}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Queen's University}{Sep 2022 -- May 2026}
+      {Bachelor of Applied Science in Computer Engineering, Smith Certificate in Business - \textbf{GPA 3.95}}{Kingston, ON}
+      \resumeItemListStart
+        \resumeItem{Chris Hadfield Scholarship, Principal's Scholarship, National Society of Black Engineers, Onyx Scholar, 2x Dean's List}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \vspace{-12pt}
+  
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Scotiabank}{Jun 2024 -- Aug 2024}
+      {Set to complete an 11-week rotational internship within Investment Banking and Capital Markets.}{Toronto, ON}
+    \resumeSubheading
+      {GuestLogix}{Apr 2024 -- May 2024}
+      {Scheduled to fulfill a 5-week internship with the Software Engineering team.}{Toronto, ON}
+
+    \resumeSubheading
+      {Smith Engineering}{Sep 2023 -- Dec 2023}
+      {Teaching Assistant}{Kingston, ON}
+      \resumeItemListStart
+        \resumeItem{Presented instruction to students on \textbf{C development}, covering concepts such as \textbf{efficient algorithms} and syntax.}
+        \resumeItem{Supervised an \textbf{800} student body by assisting with labs and grading code to enhance learning outcomes.}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Linamar Corporation}{May 2022/23 -- Sep 2022/23}
+      {Automation Engineering Intern}{Guelph, ON}
+      \resumeItemListStart
+        \resumeItem{Employed LAD and FBD to develop logical solutions, contributing to the \textbf{automation} of 3+ manual processes.}
+        \resumeItem{Excelled in PLC \textbf{programming} through Siemens TIA 15 and assisted in the maintenance of many machines and robots.}
+    \resumeItemListEnd
+    
+    
+  \resumeSubHeadingListEnd
+\vspace{-25pt}
+
+%-----------Extracurricular-----------
+\section{Extracurricular Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Queen's University Artificial Intelligence Club}{Sep 2023 -- Present}
+      {Machine Learning Developer $|$ \href{https://drive.google.com/file/d/1EHe0314CBGzUaQvjfffCZLVQK2sXhskk/view}{\textbf{Paper}} \& \href{https://isaiahiruoha.github.io/arbitrage/}{\textbf{Project}}} {Kingston, ON} 
+      \resumeItemListStart
+        \resumeItem{Deployed \textbf{reinforcement learning} with PyTorch to solve cryptocurrency arbitrage path finding through Python 3.}
+        \resumeItem{Coded a modern Vite \textbf{React} front-end and assisted with a \textbf{Flask} back-end, deploying \textbf{2} products through Heroku.}
+        \resumeItem{Interfaced with \textbf{250+} asset pairings on Kraken's exchange \textbf{API} using Axios, creating a visualized model output.}
+        \resumeItem{Co-authored a \textbf{research paper} and presented the result at an artificial intelligence conference with \textbf{320 delegates}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CREO Solutions}{Mar 2024 -- Present}
+      {Data Analyst}{Kingston, ON} 
+      \resumeItemListStart
+        \resumeItem{Hired as 1 of 2 class of 2026 data analysts (\textbf{6\%} acceptance rate) for Canada’s top student consultancy.}
+        \resumeItem{Analyzed data through visualization, machine learning and AI to provide \textbf{quantitative} insights into business problems.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Algorithmic Network \& Trading Team}{Sep 2023 -- Present}
+      {Quantitative Trading Developer}{Kingston, ON} 
+      \resumeItemListStart
+        \resumeItem{Created a predictive model using Keras and TensorFlow for Bitcoin price movements leveraging \textbf{machine learning}.}
+        \resumeItem{Analyzed historical data on QuantConnect to make predictions, surpassing the S\&P by \textbf{5\%} with algorithmic trading.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+          
+          \resumeProjectHeading
+          {\textbf{Movement Classification App} $|$ \href{https://github.com/IsaiahIruoha/walking-jumping-classification-app/tree/main}{Project} $|$ \emph{Python, NumPy, Pandas, MatplotLib, Scikit-Learn}}{Jan 2024 -- Apr 2024}
+          \resumeItemListStart
+            \resumeItem{Developed an application to classify sensor data using Logistic Regression achieving \textbf{98\%} accuracy and ROC scores.}
+            \resumeItem{Led a \textbf{3-member} team resulting in a cross-platform solution with a user interface and robust data processing pipeline.  }
+          \resumeItemListEnd 
+            \vspace{-13pt}
+           \resumeProjectHeading
+          {\textbf{Full Stack MERN E-Commerce Site} $|$ \href{https://github.com/IsaiahIruoha/mern-buyonic}{Project} $|$ \emph{MongoDB, Express.js, React, Node.js}}{Jul 2023 -- Aug 2023}
+          \resumeItemListStart
+            \resumeItem{Engineered an E-Commerce website "Buyonic" with the \textbf{MERN} stack, utilizing \textbf{6} modern frameworks and libraries.}
+            \resumeItem{Implemented user authentication with hashing and web tokens, single page application, routing and noSQL integration.}
+          \resumeItemListEnd
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript, C, PostgreSQL, Java, Bash, HTML/CSS/SASS, PHP, MongoDB, PLC (LAD, FBD)} \\
+     \textbf{Frameworks/Libraries}{: React, Node.js, Pandas, NumPy, Scikit-Learn, PyTorch, Express, Bootstrap, Redux, MatplotLib} \\
+     \textbf{Tools}{: VSCode, Git, JetBrains’s Suite, Office 365, Arduino IDE, TIA V15, SolidWorks, Unit Testing, Android Studio} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Additional Information}
+            \resumeItemListStart
+                \resumeItem{\textbf{Previous Extracurriculars}: Orientation Leader, 5-Senior Sports Teams, Student Cluster Competition Club.}
+                 \vspace{-5pt}
+                \resumeItem{\textbf{Past Awards}: 2x Highest Computer Science Grade, John W. McCauley Award "academics, community \& athletics".}
+                \vspace{-15pt}
+                \resumeItem{\textbf{Personal Interests:} Competitive basketball, soccer, football, and track \& field in addition to golf, the financial markets, fishing, fantasy sports, trying new food and travelling the world visiting 15 countries to date. }
+            \resumeItemListEnd
+\end{document}
