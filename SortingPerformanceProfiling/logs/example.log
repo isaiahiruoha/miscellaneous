@@ -1,0 +1,16 @@
+STARTTIMING: main
+| STARTTIMING: loop
+| | STARTTIMING: doSomeStuff()
+| | STOPTIMING: doSomeStuff() 0.0033ms
+| | STARTTIMING: doSomeStuff()
+| | STOPTIMING: doSomeStuff() 0.0011ms
+| | STARTTIMING: doSomeStuff()
+| | STOPTIMING: doSomeStuff() 0.0025ms
+| | STARTTIMING: doSomeStuff()
+| | STOPTIMING: doSomeStuff() 0.0005ms
+| | STARTTIMING: doSomeStuff()
+| | STOPTIMING: doSomeStuff() 0.0004ms
+| STOPTIMING: loop 0.0210ms
+| COMMENT: this is an example of a comment!
+STOPTIMING: main 0.0253ms
+TOTAL TIME: 0.0253ms

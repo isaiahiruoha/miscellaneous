@@ -1,0 +1,65 @@
+STARTTIMING: main
+| STARTTIMING: populateArray n=1000
+| STOPTIMING: populateArray n=1000 0.4717ms
+| STARTTIMING: runBubbleSort n=1000 random
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1161ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1135ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1126ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1112ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1115ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1115ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1110ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1102ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1108ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1103ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1095ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1098ms
+| | STARTTIMING: pass
+| | STOPTIMING: pass 0.1094ms
+...
+| STARTTIMING: runQuickSort n=1000 random
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0778ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0467ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0243ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0105ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0063ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0018ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0008ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0005ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0005ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0005ms
+...
+| | STOPTIMING: partition 0.0005ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0005ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0003ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0004ms
+| | STARTTIMING: partition
+| | STOPTIMING: partition 0.0027ms
+| STOPTIMING: runQuickSort n=10000 almost-sorted 262.4439ms
+STOPTIMING: main 47618.5332ms
+TOTAL TIME: 47618.5332ms

@@ -1,0 +1,20 @@
+STARTTIMING: empty loop n=1000
+STOPTIMING: empty loop n=1000 0.0297ms
+STARTTIMING: clock reads n=1000
+STOPTIMING: clock reads n=1000 0.1440ms
+STARTTIMING: start/stop pairs n=1000
+STOPTIMING: start/stop pairs n=1000 0.8522ms
+STARTTIMING: empty loop n=10000
+STOPTIMING: empty loop n=10000 0.2975ms
+STARTTIMING: clock reads n=10000
+STOPTIMING: clock reads n=10000 1.4663ms
+STARTTIMING: start/stop pairs n=10000
+STOPTIMING: start/stop pairs n=10000 8.2312ms
+STARTTIMING: empty loop n=100000
+STOPTIMING: empty loop n=100000 2.9906ms
+STARTTIMING: clock reads n=100000
+STOPTIMING: clock reads n=100000 14.7312ms
+STARTTIMING: start/stop pairs n=100000
+STOPTIMING: start/stop pairs n=100000 83.5590ms
+TOTAL TIME: 118.7645ms
+(the inner "x" start/stop pairs are left out, there are 121000 of them)
